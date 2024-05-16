@@ -13,7 +13,7 @@ st.title('Stock Trend Predictor📈📉')
 
 user_input = st.text_input('Enter Stock ticker', 'TSLA')
 
-df = data.get_data_tiingo(user_input, api_key='cd979b3785f284399d665e0f55251c969f818226', start=start, end=end)
+df = data.get_data_tiingo(user_input, api_key='c7d59e7edf968a6842686afd4317bc28434da703', start=start, end=end)
 df = df.reset_index()
 # Showing dataframe to user
 st.subheader('Data from 2010 to 2024')
